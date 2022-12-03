@@ -1,0 +1,25 @@
+{
+  "name": "svelte-easy-forms",
+  "keywords": [
+    "svelte",
+    "forms",
+    "validations",
+    "svelte-easy-forms"
+  ],
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foxkdev/svelte-easy-forms.git"
+  },
+  "author": {
+    "name": "foxkdev"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.9.3"
+  }
+}

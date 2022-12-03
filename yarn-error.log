@@ -1,0 +1,49 @@
+Arguments: 
+  /Users/foxkdev/.nvm/versions/node/v18.5.0/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js link
+
+PATH: 
+  /Users/foxkdev/.rvm/gems/ruby-2.6.3/bin:/Users/foxkdev/.rvm/gems/ruby-2.6.3@global/bin:/Users/foxkdev/.rvm/rubies/ruby-2.6.3/bin:/Users/foxkdev/.nvm/versions/node/v18.5.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/foxkdev/Dev/foxkdev/kettu/kettu-api/node_modules/.bin:/Users/foxkdev/Library/Application Support/JetBrains/Toolbox/scripts:/Users/foxkdev/.rvm/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.5.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/foxkdev/Dev/foxkdev/svelte-easy-form/package.json: Unexpected token } in JSON at position 271
+      at JSON.parse (<anonymous>)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:310:30)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "svelte-easy-form",
+    "keywords": [
+      "svelte",
+      "forms",
+      "validations",
+      "svelte-easy-form"
+    ],
+    "version": "1.0.0",
+    "main": "lib/index.ts",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/foxkdev/svelte-easy-form.git",
+    },
+    "author": {
+      "name": "foxkdev"
+    },
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

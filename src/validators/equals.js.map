@@ -1,0 +1,1 @@
+{"version":3,"file":"equals.js","sourceRoot":"","sources":["equals.ts"],"names":[],"mappings":"AAAA,MAAM,UAAU,MAAM,CAAC,IAAI,GAAG,IAAI;IAChC,OAAO,CAAC,CAAC,EAAE;QACT,IAAI,IAAI,IAAI,CAAC,KAAK,IAAI,EAAE;YACtB,OAAO,OAAO,CAAA;SACf;QACD,OAAO,IAAI,CAAA;IACb,CAAC,CAAA;AACH,CAAC"}
