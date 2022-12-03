@@ -1,2 +1,2 @@
-# svelte-easy-form
-Easy Forms in Svelte
+# svelte-awesome-form
+Awesome Forms in Svelte
