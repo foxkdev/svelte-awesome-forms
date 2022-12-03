@@ -1,8 +1,8 @@
 export function numeric() {
-  return v => {
+  return (v) => {
     if (v && !/^\d+$/.test(v)) {
-      return 'numeric'
+      return 'numeric';
     }
-    return true
-  }
+    return true;
+  };
 }

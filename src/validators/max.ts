@@ -1,8 +1,8 @@
 export function max(max) {
-  return v => {
+  return (v) => {
     if (v && v > max) {
-      return `max.${max}`
+      return `max.${max}`;
     }
-    return true
-  }
+    return true;
+  };
 }

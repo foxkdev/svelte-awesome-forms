@@ -1,8 +1,8 @@
 export function pattern(regex) {
-  return v => {
+  return (v) => {
     if (v && !regex.test(v)) {
-      return 'pattern'
+      return 'pattern';
     }
-    return true
-  }
+    return true;
+  };
 }

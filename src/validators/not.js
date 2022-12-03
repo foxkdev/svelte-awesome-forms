@@ -1,9 +1,9 @@
 export function not(cb) {
-    return (v, form) => {
-        if (cb(v, form) === true) {
-            return 'not';
-        }
-        return true;
-    };
+  return (v, form) => {
+    if (cb(v, form) === true) {
+      return 'not'
+    }
+    return true
+  }
 }
 //# sourceMappingURL=not.js.map

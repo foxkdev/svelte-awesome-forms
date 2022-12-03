@@ -1,8 +1,8 @@
 export function email() {
-  return v => {
+  return (v) => {
     if (v && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)) {
-      return 'email'
+      return 'email';
     }
-    return true
-  }
+    return true;
+  };
 }
