@@ -1,5 +1,5 @@
 export function required() {
-    return v => {
+    return (v) => {
         if (v === undefined || v === null || v === '') {
             return 'required';
         }

@@ -1,5 +1,5 @@
 export function maxLength(max) {
-    return v => {
+    return (v) => {
         if (v && v.length > max) {
             return `maxLength.${max}`;
         }

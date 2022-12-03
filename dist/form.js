@@ -19,13 +19,13 @@ export class Form {
                     this[input]._value = v;
                     this.validateInput(input, false);
                     this.onChange(this[input]);
-                }
+                },
             };
             Object.defineProperty(this[input], 'value', {
                 get: () => this[input]._value,
                 set: (v) => {
                     this[input].set(v);
-                }
+                },
             });
         }
     }
@@ -42,13 +42,13 @@ export class Form {
         return this.validate(false);
     }
     validate(forceValidate = true) {
-        return Object.keys(this.inputs).every(input => this.validateInput(input, forceValidate));
+        return Object.keys(this.inputs).every((input) => this.validateInput(input, forceValidate));
     }
     validateInput(input, forceValidate = true) {
         if (!this.inputs[input].validators) {
             return true;
         }
-        return this.inputs[input].validators.every(validator => {
+        return this.inputs[input].validators.every((validator) => {
             if (!forceValidate && !this[input].validateOnChange) {
                 return true;
             }
@@ -57,13 +57,13 @@ export class Form {
                 if (!this[input].errors.includes(result)) {
                     this[input].errors.push(result);
                 }
-                if (!this.errors.find(error => error.input === input && error.type === result)) {
+                if (!this.errors.find((error) => error.input === input && error.type === result)) {
                     this.errors.push({ input, type: result });
                 }
                 return false;
             }
             if (this[input].errors.includes(result)) {
-                this[input].errors = this[input].errors.filter(error => error !== result);
+                this[input].errors = this[input].errors.filter((error) => error !== result);
             }
             return true;
         });

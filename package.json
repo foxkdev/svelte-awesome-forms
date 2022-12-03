@@ -1,18 +1,22 @@
 {
-  "name": "svelte-easy-forms",
+  "name": "svelte-awesome-forms",
   "keywords": [
     "svelte",
     "forms",
     "validations",
-    "svelte-easy-forms"
+    "svelte-awesome-forms"
   ],
-  "version": "1.0.0",
+  "version": "1.0.7",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "jest --passWithNoTests",
-    "lint": "tslint -c tslint.json 'src/**/*.ts' --fix",
-    "format": "prettier --write 'src/**/*.ts'"
+    "lint": "npm run tslint && npm run format",
+    "tslint": "tslint -c tslint.json 'src/**/*.ts' --fix",
+    "format": "prettier --write 'src/**/*.ts'",
+    "publish": "npm run build && npm publish --access public"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/foxkdev/svelte-easy-forms.git"

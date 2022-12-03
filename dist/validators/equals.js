@@ -1,5 +1,5 @@
 export function equals(prev = null) {
-    return v => {
+    return (v) => {
         if (prev && v !== prev) {
             return 'equal';
         }

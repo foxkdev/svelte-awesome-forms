@@ -5,6 +5,9 @@
     "module": "es2020",
     "outDir": "./dist",
     "baseUrl": ".",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
     "allowJs": true,
     "checkJs": true,
     "paths": {

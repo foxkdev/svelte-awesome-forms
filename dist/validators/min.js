@@ -1,5 +1,5 @@
 export function min(min) {
-    return v => {
+    return (v) => {
         if (v && v < min) {
             return `min.${min}`;
         }
